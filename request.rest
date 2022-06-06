@@ -1,0 +1,19 @@
+GET http://localhost:5000/accounts
+######
+POST http://localhost:5000/saveAccount
+Content-Type: application/json
+
+{
+    "firstname": "Nikki Diane",
+    "lastname": "Ferrer",
+    "username": "red",
+    "password": "c5d35a",
+    "email": "green@gmail.com",
+    "accountType": "Admin",
+    "accountStatus": "Active"
+}
+
+####
+GET http://localhost:5000/getAccountById/629d67fb421419883c4b0190
+####
+GET http://localhost:5000/getAccountByUsername

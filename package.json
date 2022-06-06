@@ -1,0 +1,25 @@
+{
+  "homepage": "http://greenpickles03.github.io/react-pos-mern-backend",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "gh-pages": "^4.0.0",
+    "mongoose": "^6.3.5",
+    "node-sessionstorage": "^1.0.0",
+    "nodemon": "^2.0.16"
+  }
+}
